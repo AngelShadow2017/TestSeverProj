@@ -153,6 +153,7 @@ class HttpStreamResolver:
                 return
         elif self.pending_type == PendingType.PendingBody:
             try:
+                #输出是否完成和剩余buffer
                 finished, buffer2 = self.data.bodySetting.feed(self.buffer)
                 self.buffer = buffer2
                 if finished:
@@ -178,9 +179,9 @@ class HttpStreamResolver:
     def try_resolve_header(self,lines:list[str]) -> tuple[int, bool]:
         ret_complete=-1
         try:
-            #永远不处理最后一行
+            #永远不处理最后一行，因为最后一行的数据可能没有输入完，得等到输入\r\n才算做一行
             for index,line in enumerate(lines[:-1]):
-                if len(line)==0:
+                if len(line)==0:#因为是逐行读取的，所以这里一定是\r\n\r\n才会出现0的行，说明header结束了
                     ret_complete=index+1
                     break
                 #不支持obs-folding
