@@ -203,7 +203,7 @@ class HttpResponse:
             return False
         if HttpResponse._etag_match(parsed.if_none_match, etag):
             return True
-        if parsed.if_modified_since is not None and modified_utc == parsed.if_modified_since:
+        if parsed.if_modified_since is not None and abs((modified_utc - parsed.if_modified_since).total_seconds()) < 1.0:
             return True
         return False
 

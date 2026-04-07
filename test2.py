@@ -159,21 +159,39 @@ def manual_test(
 if __name__ == "__main__":
     # 这里只是示例，实际使用时请注释掉或删除
     example_request = (
-        "GET ../index.html HTTP/1.1\r\n"
+        "HEAD ../index.html HTTP/1.1\r\n"
         "Host: example.com\r\n"
+        "Connection: close\r\n"
         "User-Agent: test-client\r\n"
         "Accept: */*\r\n"
         "Content-Length: 3\r\n"
         "\r\n"
         "123"
-        "GET /index.html HTTP/1.1\r\n"
+        "HEAD ../index.html HTTP/1.1\r\n"
         "Host: example2.com\r\n"
         "User-Agent: test-client2\r\n"
         "Accept: */*\r\n"
         "Content-Length: 5\r\n"
         "\r\n"
         "12345"
+        "HEAD ./33.html HTTP/1.1\r\n"
+        "Host: example2.com\r\n"
+        "User-Agent: test-client2\r\n"
+        "Accept: */*\r\n"
+        "\r\n"
+        "HEAD ./index.html HTTP/1.1\r\n"
+        "Host: example2.com\r\n"
+        "User-Agent: test-client2\r\n"
+        "Accept: */*\r\n"
+        "\r\n"
+        "HEAD ./index.html HTTP/1.1\r\n"
+        "Host: example2.com\r\n"
+        "User-Agent: test-client2\r\n"
+        "Accept: */*\r\n"
+        "If-None-Match: 2b6c-68c55083\r\n"
+        "If-Modified-Since: Sat, 13 Sep 2025 11:07:47 GMT\r\n"
+        "\r\n"
     )
 
     # 手动调用
-    results = manual_test(example_request, trials=3000, verbose=True)
+    results = manual_test(example_request, trials=1, verbose=True)
