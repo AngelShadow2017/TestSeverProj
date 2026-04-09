@@ -1,0 +1,4 @@
+[submodule "test_files/The-Open-Source-Version-Of-PvZ-Travel"]
+	path = test_files/The-Open-Source-Version-Of-PvZ-Travel
+	url = https://github.com/jiangnangame/The-Open-Source-Version-Of-PvZ-Travel.git
+	branch = main

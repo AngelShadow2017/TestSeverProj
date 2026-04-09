@@ -1,0 +1,534 @@
+------------------------------
+Server started at 0.0.0.0:16666, serving root: E:\Projects\TestSeverProj\test_files\The-Open-Source-Version-Of-PvZ-Travel\src
+Accepted connection from ('127.0.0.1', 6447)
+Accepted connection from ('127.0.0.1', 8679)
+Received 812 bytes from ('127.0.0.1', 6447), start: b'GET / HTTP/1.1\r\nHost: localhos'
+Sent 7006 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 530 bytes from ('127.0.0.1', 6447), start: b'GET /.well-known/appspecific/c'
+Sent 132 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 404 Not Found\r\nDate: '
+Received 685 bytes from ('127.0.0.1', 6447), start: b'GET /js/languageChk.js HTTP/1.'
+Received 685 bytes from ('127.0.0.1', 8679), start: b'GET /js/errorShower.js HTTP/1.'
+Sent 4823 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 7964 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 692 bytes from ('127.0.0.1', 6447), start: b'GET /css/ui.css HTTP/1.1\r\nHost'
+Received 753 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/mum.webp'
+Sent 40356 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 686 bytes from ('127.0.0.1', 6447), start: b'GET /languages/zh-cn.js HTTP/1'
+Sent 852 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 680 bytes from ('127.0.0.1', 8679), start: b'GET /js/plugin.js HTTP/1.1\r\nHo'
+Sent 517490 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 13608 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 678 bytes from ('127.0.0.1', 6447), start: b'GET /js/main.js HTTP/1.1\r\nHost'
+Sent 53310 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 682 bytes from ('127.0.0.1', 8679), start: b'GET /js/function.js HTTP/1.1\r\n'
+Sent 151873 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 680 bytes from ('127.0.0.1', 8679), start: b'GET /js/plants.js HTTP/1.1\r\nHo'
+Received 681 bytes from ('127.0.0.1', 6447), start: b'GET /js/zombies.js HTTP/1.1\r\nH'
+Sent 188077 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 243055 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 769 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/voidButt'
+Sent 5047 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 768 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/PublicBg'
+Sent 207783 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 757 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/loading.'
+Sent 59727 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 776 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/GetNewPl'
+Received 765 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/panel.we'
+Sent 25339 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 766 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/Topbar.w'
+Sent 144103 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 767 bytes from ('127.0.0.1', 6447), start: b'GET /images/Props/Coins/coin_g'
+Sent 5884 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 681 bytes from ('127.0.0.1', 8679), start: b'GET /js/bullets.js HTTP/1.1\r\nH'
+Sent 8007 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 682 bytes from ('127.0.0.1', 6447), start: b'GET /js/services.js HTTP/1.1\r\n'
+Sent 6273 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 39812 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 678 bytes from ('127.0.0.1', 8679), start: b'GET /js/user.js HTTP/1.1\r\nHost'
+Received 755 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/Shovel.p'
+Sent 14899 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 5251 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 764 bytes from ('127.0.0.1', 8679), start: b'GET /images/Props/Shop/list.pn'
+Sent 1572 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 724 bytes from ('127.0.0.1', 8679), start: b'GET /font/HYBiRanTianTianQuanW'
+Sent 1606465 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 690 bytes from ('127.0.0.1', 6447), start: b'GET /modal/Service/index.js HT'
+Sent 8568 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 755 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/Shovel.p'
+Received 767 bytes from ('127.0.0.1', 6447), start: b'GET /images/Props/Coins/coin_g'
+Sent 5251 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 8007 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 754 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/Logo.web'
+Received 757 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/Surface.'
+Sent 41357 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 93588 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 762 bytes from ('127.0.0.1', 8679), start: b'GET /images/Plants/IceAloe/Ice'
+Received 762 bytes from ('127.0.0.1', 6447), start: b'GET /images/Plants/WallNut/Wal'
+Sent 158643 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 761 bytes from ('127.0.0.1', 8679), start: b'GET /images/Plants/SunFlower/i'
+Sent 27699 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 766 bytes from ('127.0.0.1', 6447), start: b'GET /images/Plants/SunShroom/S'
+Sent 76146 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 694 bytes from ('127.0.0.1', 8679), start: b'GET /audio/logo.mp3 HTTP/1.1\r\n'
+Sent 75680 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 367484 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 755 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/Shovel.p'
+Received 767 bytes from ('127.0.0.1', 8679), start: b'GET /images/Props/Coins/coin_g'
+Sent 5251 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 8007 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 6447), start: b'GET /css/effect.css HTTP/1.1\r\n'
+Received 702 bytes from ('127.0.0.1', 8679), start: b'GET /css/publicBase64.css HTTP'
+Sent 121269 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 23121 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 766 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/NationFl'
+Received 765 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/NationFl'
+Sent 4368 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 754 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/Logo.web'
+Sent 2729 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 760 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/smallBut'
+Sent 93588 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 766 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/GetNewPl'
+Sent 4658 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 25339 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 758 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/PublicBg'
+Received 756 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/Topbar.w'
+Sent 207783 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 5884 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 755 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/panel.we'
+Received 753 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/left.gif'
+Sent 144103 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 753 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/down.gif'
+Sent 7970 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 757 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/GrowSoil'
+Sent 7475 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 760 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/LawnClea'
+Sent 9577 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 753 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/sun2.png'
+Sent 2121 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 760 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/PreviewM'
+Sent 84655 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 753 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/Dave.png'
+Sent 20109 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 762 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/Conveyor'
+Sent 109602 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 759 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/Black_Da'
+Sent 140461 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 765 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/Clearanc'
+Sent 7846 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 758 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/Map_Turn'
+Sent 3172 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 755 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/Fuben1.p'
+Sent 1383 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 753 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/map.webp'
+Sent 66006 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 761 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/Speed_Ad'
+Sent 6284 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 757 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/GameOver'
+Sent 59758 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 756 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/Zomboss.'
+Sent 60459 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 76916 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 757 bytes from ('127.0.0.1', 6447), start: b'GET /images/interface/Almanac.'
+Received 756 bytes from ('127.0.0.1', 8679), start: b'GET /images/interface/Notice.w'
+Sent 12843 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 758 bytes from ('127.0.0.1', 6447), start: b'GET /images/Zombies/buff_freez'
+Sent 23925 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8679), start: b'GET /audio/bottom.mp3 HTTP/1.1'
+Sent 1650 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 6447), start: b'GET /audio/buzzer.mp3 HTTP/1.1'
+Sent 6554 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8679), start: b'GET /audio/click3.mp3 HTTP/1.1'
+Sent 1887 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 695 bytes from ('127.0.0.1', 6447), start: b'GET /audio/Close.mp3 HTTP/1.1\r'
+Sent 2791 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 704 bytes from ('127.0.0.1', 8679), start: b'GET /audio/crazydavelong1.mp3 '
+Sent 3491 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 23493 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 704 bytes from ('127.0.0.1', 6447), start: b'GET /audio/crazydavelong2.mp3 '
+Received 704 bytes from ('127.0.0.1', 8679), start: b'GET /audio/crazydavelong3.mp3 '
+Sent 25061 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 705 bytes from ('127.0.0.1', 6447), start: b'GET /audio/crazydaveshort1.mp3'
+Sent 24434 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 14089 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 695 bytes from ('127.0.0.1', 8679), start: b'GET /audio/pause.mp3 HTTP/1.1\r'
+Received 696 bytes from ('127.0.0.1', 6447), start: b'GET /audio/plant1.mp3 HTTP/1.1'
+Sent 3594 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Accepted connection from ('127.0.0.1', 13582)
+Received 696 bytes from ('127.0.0.1', 13582), start: b'GET /audio/plant2.mp3 HTTP/1.1'
+Received 702 bytes from ('127.0.0.1', 8679), start: b'GET /audio/plantsgarden.mp3 HT'
+Sent 4716 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 6447), start: b'GET /audio/points.mp3 HTTP/1.1'
+Sent 4716 bytes to ('127.0.0.1', 13582), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 85100 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 703 bytes from ('127.0.0.1', 13582), start: b'GET /audio/readysetplant.mp3 H'
+Received 696 bytes from ('127.0.0.1', 8679), start: b'GET /audio/scream.mp3 HTTP/1.1'
+Sent 5632 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 698 bytes from ('127.0.0.1', 6447), start: b'GET /audio/seedlift.mp3 HTTP/1'
+Sent 44795 bytes to ('127.0.0.1', 13582), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 17677 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 13582), start: b'GET /audio/shovel.mp3 HTTP/1.1'
+Received 701 bytes from ('127.0.0.1', 8679), start: b'GET /audio/UnlockLimit.mp3 HTT'
+Sent 3851 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 698 bytes from ('127.0.0.1', 6447), start: b'GET /audio/winmusic.mp3 HTTP/1'
+Sent 4464 bytes to ('127.0.0.1', 8679), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 2699 bytes to ('127.0.0.1', 13582), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 93502 bytes to ('127.0.0.1', 6447), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Accepted connection from ('127.0.0.1', 1656)
+Accepted connection from ('127.0.0.1', 14506)
+Accepted connection from ('127.0.0.1', 13635)
+Receive timeout after 1.0s from ('127.0.0.1', 13582), closing connection
+Force closing connection from ('127.0.0.1', 13582)
+Receive timeout after 1.0s from ('127.0.0.1', 6447), closing connection
+Force closing connection from ('127.0.0.1', 6447)
+Receive timeout after 1.0s from ('127.0.0.1', 8679), closing connection
+Force closing connection from ('127.0.0.1', 8679)
+Connection closed from ('127.0.0.1', 8679)
+Connection closed from ('127.0.0.1', 6447)
+Connection closed from ('127.0.0.1', 13582)
+Receive timeout after 1.0s from ('127.0.0.1', 1656), closing connection
+Force closing connection from ('127.0.0.1', 1656)
+Receive timeout after 1.0s from ('127.0.0.1', 14506), closing connection
+Force closing connection from ('127.0.0.1', 14506)
+Connection closed from ('127.0.0.1', 1656)
+Connection closed from ('127.0.0.1', 14506)
+Receive timeout after 1.0s from ('127.0.0.1', 13635), closing connection
+Force closing connection from ('127.0.0.1', 13635)
+Connection closed from ('127.0.0.1', 13635)
+Accepted connection from ('127.0.0.1', 12892)
+Received 767 bytes from ('127.0.0.1', 12892), start: b'GET /images/interface/Surface.'
+Accepted connection from ('127.0.0.1', 5147)
+Received 772 bytes from ('127.0.0.1', 5147), start: b'GET /images/Plants/IceAloe/Ice'
+Accepted connection from ('127.0.0.1', 12367)
+Received 772 bytes from ('127.0.0.1', 12367), start: b'GET /images/Plants/WallNut/Wal'
+Accepted connection from ('127.0.0.1', 14144)
+Received 771 bytes from ('127.0.0.1', 14144), start: b'GET /images/Plants/SunFlower/i'
+Accepted connection from ('127.0.0.1', 2262)
+Received 776 bytes from ('127.0.0.1', 2262), start: b'GET /images/Plants/SunShroom/S'
+Accepted connection from ('127.0.0.1', 10922)
+Received 774 bytes from ('127.0.0.1', 10922), start: b'GET /images/Plants/Repeater/Re'
+Sent 41357 bytes to ('127.0.0.1', 12892), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 27699 bytes to ('127.0.0.1', 12367), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 158643 bytes to ('127.0.0.1', 5147), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 75680 bytes to ('127.0.0.1', 2262), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 32245 bytes to ('127.0.0.1', 10922), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 76146 bytes to ('127.0.0.1', 14144), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 754 bytes from ('127.0.0.1', 12892), start: b'GET /images/interface/lab1.web'
+Received 695 bytes from ('127.0.0.1', 2262), start: b'GET /audio/pause.mp3 HTTP/1.1\r'
+Sent 46585 bytes to ('127.0.0.1', 12892), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 3594 bytes to ('127.0.0.1', 2262), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 739 bytes from ('127.0.0.1', 12892), start: b'GET /favicon.ico HTTP/1.1\r\nHos'
+Sent 132 bytes to ('127.0.0.1', 12892), start: b'HTTP/1.1 404 Not Found\r\nDate: '
+Received 766 bytes from ('127.0.0.1', 12892), start: b'GET /images/interface/ForestSe'
+Received 766 bytes from ('127.0.0.1', 2262), start: b'GET /images/interface/ForestSe'
+Sent 66430 bytes to ('127.0.0.1', 12892), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 65954 bytes to ('127.0.0.1', 2262), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Receive timeout after 1.0s from ('127.0.0.1', 5147), closing connection
+Force closing connection from ('127.0.0.1', 5147)
+Receive timeout after 1.0s from ('127.0.0.1', 12367), closing connection
+Force closing connection from ('127.0.0.1', 12367)
+Connection closed from ('127.0.0.1', 12367)
+Connection closed from ('127.0.0.1', 5147)
+Receive timeout after 1.0s from ('127.0.0.1', 10922), closing connection
+Force closing connection from ('127.0.0.1', 10922)
+Receive timeout after 1.0s from ('127.0.0.1', 14144), closing connection
+Force closing connection from ('127.0.0.1', 14144)
+Connection closed from ('127.0.0.1', 10922)
+Connection closed from ('127.0.0.1', 14144)
+Received 766 bytes from ('127.0.0.1', 2262), start: b'GET /images/interface/ForestSe'
+Received 766 bytes from ('127.0.0.1', 12892), start: b'GET /images/interface/ForestSe'
+Sent 66430 bytes to ('127.0.0.1', 2262), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 65954 bytes to ('127.0.0.1', 12892), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 756 bytes from ('127.0.0.1', 12892), start: b'GET /images/interface/writer.w'
+Sent 708071 bytes to ('127.0.0.1', 12892), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Receive timeout after 1.0s from ('127.0.0.1', 2262), closing connection
+Force closing connection from ('127.0.0.1', 2262)
+Connection closed from ('127.0.0.1', 2262)
+Receive timeout after 1.0s from ('127.0.0.1', 12892), closing connection
+Force closing connection from ('127.0.0.1', 12892)
+Connection closed from ('127.0.0.1', 12892)
+Accepted connection from ('127.0.0.1', 12200)
+Received 766 bytes from ('127.0.0.1', 12200), start: b'GET /images/interface/ForestSe'
+Accepted connection from ('127.0.0.1', 2555)
+Received 766 bytes from ('127.0.0.1', 2555), start: b'GET /images/interface/ForestSe'
+Sent 65954 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 66430 bytes to ('127.0.0.1', 12200), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 697 bytes from ('127.0.0.1', 2555), start: b'GET /modal/Service/selectionma'
+Sent 572 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 755 bytes from ('127.0.0.1', 2555), start: b'GET /images/interface/Shovel.p'
+Received 767 bytes from ('127.0.0.1', 12200), start: b'GET /images/Props/Coins/coin_g'
+Sent 8007 bytes to ('127.0.0.1', 12200), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 5251 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 763 bytes from ('127.0.0.1', 12200), start: b'GET /images/interface/map.webp'
+Received 768 bytes from ('127.0.0.1', 2555), start: b'GET /images/interface/Map_Turn'
+Sent 6284 bytes to ('127.0.0.1', 12200), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 1383 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 711 bytes from ('127.0.0.1', 2555), start: b'GET /modal/SelectionMap/Forest'
+Sent 3539 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 766 bytes from ('127.0.0.1', 2555), start: b'GET /images/interface/ForestSe'
+Received 766 bytes from ('127.0.0.1', 12200), start: b'GET /images/interface/ForestSe'
+Sent 66430 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 65954 bytes to ('127.0.0.1', 12200), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 756 bytes from ('127.0.0.1', 12200), start: b'GET /images/interface/Forest.w'
+Received 751 bytes from ('127.0.0.1', 2555), start: b'GET /images/Card/zombie.webp H'
+Sent 1803 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 97590 bytes to ('127.0.0.1', 12200), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 766 bytes from ('127.0.0.1', 2555), start: b'GET /images/interface/ForestSe'
+Received 756 bytes from ('127.0.0.1', 12200), start: b'GET /images/Card/StoneFlower.w'
+Sent 66430 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 7448 bytes to ('127.0.0.1', 12200), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 759 bytes from ('127.0.0.1', 2555), start: b'GET /images/Card/ConeheadZombi'
+Received 761 bytes from ('127.0.0.1', 12200), start: b'GET /images/Card/BucketheadZom'
+Sent 1759 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 1921 bytes to ('127.0.0.1', 12200), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 760 bytes from ('127.0.0.1', 2555), start: b'GET /images/Card/NewspaperZomb'
+Received 758 bytes from ('127.0.0.1', 12200), start: b'GET /images/Card/BalloonZombie'
+Sent 2295 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 2191 bytes to ('127.0.0.1', 12200), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 752 bytes from ('127.0.0.1', 2555), start: b'GET /images/Card/SnowPea.webp '
+Received 751 bytes from ('127.0.0.1', 12200), start: b'GET /images/Card/Radish.webp H'
+Sent 6840 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 7030 bytes to ('127.0.0.1', 12200), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 758 bytes from ('127.0.0.1', 2555), start: b'GET /images/interface/ForestJx'
+Received 706 bytes from ('127.0.0.1', 12200), start: b'GET /audio/Bgm_Forest_Ready.mp'
+Sent 87342 bytes to ('127.0.0.1', 2555), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 104943 bytes to ('127.0.0.1', 12200), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Accepted connection from ('127.0.0.1', 11675)
+Accepted connection from ('127.0.0.1', 6902)
+Accepted connection from ('127.0.0.1', 14920)
+Accepted connection from ('127.0.0.1', 13415)
+Receive timeout after 1.0s from ('127.0.0.1', 12200), closing connection
+Force closing connection from ('127.0.0.1', 12200)
+Receive timeout after 1.0s from ('127.0.0.1', 2555), closing connection
+Force closing connection from ('127.0.0.1', 2555)
+Connection closed from ('127.0.0.1', 12200)
+Connection closed from ('127.0.0.1', 2555)
+Receive timeout after 1.0s from ('127.0.0.1', 11675), closing connection
+Force closing connection from ('127.0.0.1', 11675)
+Connection closed from ('127.0.0.1', 11675)
+Receive timeout after 1.0s from ('127.0.0.1', 6902), closing connection
+Force closing connection from ('127.0.0.1', 6902)
+Connection closed from ('127.0.0.1', 6902)
+Receive timeout after 1.0s from ('127.0.0.1', 14920), closing connection
+Force closing connection from ('127.0.0.1', 14920)
+Receive timeout after 1.0s from ('127.0.0.1', 13415), closing connection
+Force closing connection from ('127.0.0.1', 13415)
+Connection closed from ('127.0.0.1', 13415)
+Connection closed from ('127.0.0.1', 14920)
+Accepted connection from ('127.0.0.1', 4260)
+Accepted connection from ('127.0.0.1', 9451)
+Received 770 bytes from ('127.0.0.1', 4260), start: b'GET /images/interface/PreviewM'
+Received 756 bytes from ('127.0.0.1', 9451), start: b'GET /images/Card/StoneFlower.w'
+Accepted connection from ('127.0.0.1', 2952)
+Received 751 bytes from ('127.0.0.1', 2952), start: b'GET /images/Card/Zombie.webp H'
+Accepted connection from ('127.0.0.1', 2801)
+Received 696 bytes from ('127.0.0.1', 2801), start: b'GET /audio/click3.mp3 HTTP/1.1'
+Sent 7448 bytes to ('127.0.0.1', 9451), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 20109 bytes to ('127.0.0.1', 4260), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 1803 bytes to ('127.0.0.1', 2952), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 2791 bytes to ('127.0.0.1', 2801), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Accepted connection from ('127.0.0.1', 8023)
+Receive timeout after 1.0s from ('127.0.0.1', 4260), closing connection
+Force closing connection from ('127.0.0.1', 4260)
+Receive timeout after 1.0s from ('127.0.0.1', 9451), closing connection
+Force closing connection from ('127.0.0.1', 9451)
+Receive timeout after 1.0s from ('127.0.0.1', 2952), closing connection
+Force closing connection from ('127.0.0.1', 2952)
+Receive timeout after 1.0s from ('127.0.0.1', 2801), closing connection
+Force closing connection from ('127.0.0.1', 2801)
+Connection closed from ('127.0.0.1', 4260)
+Connection closed from ('127.0.0.1', 9451)
+Connection closed from ('127.0.0.1', 2952)
+Connection closed from ('127.0.0.1', 2801)
+Received 690 bytes from ('127.0.0.1', 8023), start: b'GET /modal/Level/Forest1.js HT'
+Sent 5314 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 755 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Shovel.p'
+Sent 5251 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 767 bytes from ('127.0.0.1', 8023), start: b'GET /images/Props/Coins/coin_g'
+Sent 8007 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 756 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Forest.w'
+Sent 97590 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 756 bytes from ('127.0.0.1', 8023), start: b'GET /images/Card/StoneFlower.w'
+Sent 7448 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 761 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/SunFlower/i'
+Sent 76146 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 762 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/WallNut/Wal'
+Sent 27699 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 759 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/StoneFlower'
+Sent 11112 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 755 bytes from ('127.0.0.1', 8023), start: b'GET /images/Card/Peashooter.we'
+Sent 6852 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 759 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/Peashooter/'
+Sent 1753 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 768 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/Peashooter/'
+Sent 29813 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 751 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/PB00.webp H'
+Sent 1082 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 760 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/PeaBulletHi'
+Sent 4095 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 774 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/Peashooter/'
+Sent 22747 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 754 bytes from ('127.0.0.1', 8023), start: b'GET /images/Card/SunFlower.web'
+Sent 7604 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 758 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/SunFlower/0'
+Sent 2603 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 764 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/SunFlower/p'
+Sent 79812 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 755 bytes from ('127.0.0.1', 8023), start: b'GET /images/Card/PotatoMine.we'
+Sent 7256 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 758 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/PotatoMine/'
+Sent 4348 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 775 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/PotatoMine/'
+Sent 2196 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 767 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/PotatoMine/'
+Sent 23292 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 761 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/PotatoMine/'
+Sent 84938 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 770 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/PotatoMine/'
+Sent 13861 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 752 bytes from ('127.0.0.1', 8023), start: b'GET /images/Card/WallNut.webp '
+Sent 6512 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 755 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/WallNut/0.g'
+Sent 5015 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 771 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/WallNut/Wal'
+Sent 27441 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 771 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/WallNut/Wal'
+Sent 26405 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 761 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/Zom'
+Sent 217249 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 767 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/Zom'
+Sent 610851 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 769 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/Zom'
+Sent 151505 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 775 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/Zom'
+Sent 436801 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 765 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/Zom'
+Sent 1309 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 764 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/Zom'
+Sent 86274 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 756 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/1.w'
+Sent 146937 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 755 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/BoomDie.we'
+Sent 28357 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 706 bytes from ('127.0.0.1', 8023), start: b'GET /audio/Bgm_Forest_Ready.mp'
+Sent 104943 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/splat1.mp3 HTTP/1.1'
+Sent 6763 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 756 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Forest.w'
+Sent 97590 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 753 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Dave.png'
+Sent 109602 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 761 bytes from ('127.0.0.1', 8023), start: b'GET /images/Plants/SunFlower/i'
+Sent 76146 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/splat2.mp3 HTTP/1.1'
+Sent 6763 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/splat3.mp3 HTTP/1.1'
+Sent 8017 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 700 bytes from ('127.0.0.1', 8023), start: b'GET /audio/plastichit.mp3 HTTP'
+Sent 2555 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 699 bytes from ('127.0.0.1', 8023), start: b'GET /audio/shieldhit.mp3 HTTP/'
+Sent 2339 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 700 bytes from ('127.0.0.1', 8023), start: b'GET /audio/shieldhit2.mp3 HTTP'
+Sent 2627 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 695 bytes from ('127.0.0.1', 8023), start: b'GET /audio/throw.mp3 HTTP/1.1\r'
+Sent 1918 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/throw2.mp3 HTTP/1.1'
+Sent 2175 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 700 bytes from ('127.0.0.1', 8023), start: b'GET /audio/cherrybomb.mp3 HTTP'
+Sent 4896 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/splat1.mp3 HTTP/1.1'
+Sent 6763 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/splat2.mp3 HTTP/1.1'
+Sent 6763 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/splat3.mp3 HTTP/1.1'
+Sent 8017 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/ignite.mp3 HTTP/1.1'
+Sent 19801 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/frozen.mp3 HTTP/1.1'
+Sent 21997 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 695 bytes from ('127.0.0.1', 8023), start: b'GET /audio/chomp.mp3 HTTP/1.1\r'
+Sent 17476 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/chomp2.mp3 HTTP/1.1'
+Sent 29719 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 699 bytes from ('127.0.0.1', 8023), start: b'GET /audio/chompsoft.mp3 HTTP/'
+Sent 17705 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 696 bytes from ('127.0.0.1', 8023), start: b'GET /audio/awooga.mp3 HTTP/1.1'
+Sent 29821 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 705 bytes from ('127.0.0.1', 8023), start: b'GET /audio/crazydaveshort1.mp3'
+Sent 14089 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Accepted connection from ('127.0.0.1', 2205)
+Accepted connection from ('127.0.0.1', 6830)
+Accepted connection from ('127.0.0.1', 5828)
+Accepted connection from ('127.0.0.1', 2718)
+Accepted connection from ('127.0.0.1', 10972)
+Received 753 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Dave.png'
+Received 704 bytes from ('127.0.0.1', 2205), start: b'GET /audio/crazydavelong2.mp3 '
+Sent 109602 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 25061 bytes to ('127.0.0.1', 2205), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 753 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Dave.png'
+Sent 109602 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 753 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Dave.png'
+Sent 109602 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 753 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Dave.png'
+Sent 109602 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 753 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Dave.png'
+Received 704 bytes from ('127.0.0.1', 2205), start: b'GET /audio/crazydavelong1.mp3 '
+Sent 23493 bytes to ('127.0.0.1', 2205), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 109602 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Receive timeout after 1.0s from ('127.0.0.1', 6830), closing connection
+Force closing connection from ('127.0.0.1', 6830)
+Connection closed from ('127.0.0.1', 6830)
+Received 753 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Dave.png'
+Sent 109602 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Receive timeout after 1.0s from ('127.0.0.1', 2718), closing connection
+Force closing connection from ('127.0.0.1', 2718)
+Receive timeout after 1.0s from ('127.0.0.1', 10972), closing connection
+Force closing connection from ('127.0.0.1', 10972)
+Receive timeout after 1.0s from ('127.0.0.1', 5828), closing connection
+Force closing connection from ('127.0.0.1', 5828)
+Connection closed from ('127.0.0.1', 2718)
+Connection closed from ('127.0.0.1', 10972)
+Connection closed from ('127.0.0.1', 5828)
+Received 753 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Dave.png'
+Sent 109602 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 753 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/Dave.png'
+Sent 109602 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 757 bytes from ('127.0.0.1', 8023), start: b'GET /images/interface/GrowSoil'
+Received 755 bytes from ('127.0.0.1', 2205), start: b'GET /images/Card/Peashooter.we'
+Sent 6852 bytes to ('127.0.0.1', 2205), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 9577 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 754 bytes from ('127.0.0.1', 2205), start: b'GET /images/Card/SunFlower.web'
+Received 755 bytes from ('127.0.0.1', 8023), start: b'GET /images/Card/PotatoMine.we'
+Sent 7604 bytes to ('127.0.0.1', 2205), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 7256 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 752 bytes from ('127.0.0.1', 2205), start: b'GET /images/Card/WallNut.webp '
+Received 756 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/1.w'
+Sent 6512 bytes to ('127.0.0.1', 2205), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Sent 146937 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 756 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/1.w'
+Sent 146937 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 756 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/1.w'
+Sent 146937 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Received 756 bytes from ('127.0.0.1', 8023), start: b'GET /images/Zombies/Zombie/1.w'
+Sent 146937 bytes to ('127.0.0.1', 8023), start: b'HTTP/1.1 200 OK\r\nDate: Fri, 10'
+Accepted connection from ('127.0.0.1', 8702)
+Accepted connection from ('127.0.0.1', 4746)
+Accepted connection from ('127.0.0.1', 14132)
+Accepted connection from ('127.0.0.1', 1903)
+Receive timeout after 1.0s from ('127.0.0.1', 2205), closing connection
+Force closing connection from ('127.0.0.1', 2205)
+Connection closed from ('127.0.0.1', 2205)
+Receive timeout after 1.0s from ('127.0.0.1', 8023), closing connection
+Force closing connection from ('127.0.0.1', 8023)
+Connection closed from ('127.0.0.1', 8023)
+Receive timeout after 1.0s from ('127.0.0.1', 8702), closing connection
+Force closing connection from ('127.0.0.1', 8702)
+Receive timeout after 1.0s from ('127.0.0.1', 14132), closing connection
+Force closing connection from ('127.0.0.1', 14132)
+Receive timeout after 1.0s from ('127.0.0.1', 1903), closing connection
+Force closing connection from ('127.0.0.1', 1903)
+Connection closed from ('127.0.0.1', 8702)
+Connection closed from ('127.0.0.1', 14132)
+Receive timeout after 1.0s from ('127.0.0.1', 4746), closing connection
+Force closing connection from ('127.0.0.1', 4746)
+Connection closed from ('127.0.0.1', 1903)
+Connection closed from ('127.0.0.1', 4746)

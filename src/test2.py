@@ -1,17 +1,16 @@
 ﻿#!/usr/bin/env python3
 #这个是AI帮我生成的测试，用来测试recv切在奇奇怪怪的地方还能不能正常跑
-import json
 import os
 import random
 from pathlib import Path
 from typing import List, Callable, Optional, Tuple
 
-from httpResolver.fileResponser import HttpResponse, FileResponser
-from server import default_mime_types
+from src.httpResolver.fileResponser import HttpResponse, FileResponser
+from src.server import default_mime_types
 
 # 尝试导入用户实现的类（可根据实际路径修改）
 try:
-    from httpResolver.httpResolver import HttpStreamResolver, HttpRequestData, ErrorReason
+    from src.httpResolver.httpResolver import HttpStreamResolver, HttpRequestData, ErrorReason
 except ImportError:
     # 如果无法导入，假设这些类已在全局作用域中定义
     try:
@@ -70,7 +69,7 @@ def deterministic_split_at_text(data: str, indices: List[int]) -> List[str]:
     parts.append(data[last:])
     return [p for p in parts if p]
 
-file_setting=FileResponser(Path(os.path.dirname(__file__),"httpRoot").resolve().__str__(),default_mime_types())
+file_setting=FileResponser(Path(os.path.dirname(__file__), "../httpRoot").resolve().__str__(), default_mime_types())
 
 # ========== 手动测试入口 ==========
 def manual_test(
@@ -103,8 +102,11 @@ def manual_test(
         collected = []
         def _cb(success: bool, data: Optional[HttpRequestData],error_reason: ErrorReason=ErrorReason.UNKNOWN):
             responser = HttpResponse(file_setting)
-            responser.resolve(data)
-            collected.append((success, data,responser.to_http_bytes().decode("utf-8"), error_reason))
+            if (not success or data is None):
+                responser.reject(error_reason)
+            else:
+                responser.resolve(data)
+            collected.append((success, data,responser.to_http_bytes(), error_reason))
             if callback:
                 callback(success, data)
 
@@ -148,7 +150,7 @@ def manual_test(
                 if ok and d is not None:
                     print(f"  callback[{i}]: OK \r\n{resp}")
                 else:
-                    print(f"  callback[{i}]: FAIL")
+                    print(f"  callback[{i}]: FAIL\r\n{resp}")
             print("-" * 40)
 
         all_trials_results.append(collected)
@@ -167,13 +169,6 @@ if __name__ == "__main__":
         "Content-Length: 3\r\n"
         "\r\n"
         "123"
-        "HEAD ../index.html HTTP/1.1\r\n"
-        "Host: example2.com\r\n"
-        "User-Agent: test-client2\r\n"
-        "Accept: */*\r\n"
-        "Content-Length: 5\r\n"
-        "\r\n"
-        "12345"
         "HEAD ./33.html HTTP/1.1\r\n"
         "Host: example2.com\r\n"
         "User-Agent: test-client2\r\n"
@@ -190,6 +185,21 @@ if __name__ == "__main__":
         "Accept: */*\r\n"
         "If-None-Match: 2b6c-68c55083\r\n"
         "If-Modified-Since: Sat, 13 Sep 2025 11:07:47 GMT\r\n"
+        "\r\n"
+        "GET ./h.html HTTP/1.1\r\n"
+        "Host: example2.com\r\n"
+        "User-Agent: test-client2\r\n"
+        "Accept: */*\r\n"
+        "\r\n"
+        "GET ./1.webp HTTP/1.1\r\n"
+        "Host: example2.com\r\n"
+        "User-Agent: test-client2\r\n"
+        "Accept: */*\r\n"
+        "\r\n"
+        "VVSGSGFSDV ./1.webp HTTP/1.1\r\n"
+        "Host: example2.com\r\n"
+        "User-Agent: test-client2\r\n"
+        "Accept: */*\r\n"
         "\r\n"
     )
 

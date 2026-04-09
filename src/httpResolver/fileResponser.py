@@ -8,7 +8,7 @@ from urllib.parse import unquote, urlsplit
 
 import cchardet
 
-from httpResolver.httpResolver import HttpVersion, HttpRequestData, ErrorReason, Method
+from src.httpResolver.httpResolver import HttpVersion, HttpRequestData, ErrorReason, Method
 
 
 def detect_encoding_fast(file_path: Path, common_encodings: list = None):

@@ -1,7 +1,7 @@
 ﻿from enum import Enum
 
-from httpResolver.httpHeaderResolver import ParsedHeaders, TransferCoding
-from httpResolver.normalize_charset import normalize_charset
+from src.httpResolver.httpHeaderResolver import ParsedHeaders, TransferCoding
+from src.httpResolver.normalize_charset import normalize_charset
 
 
 class BodyMode(Enum):

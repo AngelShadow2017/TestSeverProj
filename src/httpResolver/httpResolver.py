@@ -1,8 +1,8 @@
 ﻿from enum import Enum
 from typing import Optional, Callable
 
-from httpResolver.httpBodyResolver import BodySetting
-from httpResolver.httpHeaderResolver import ParsedHeaders, HeaderResolver
+from src.httpResolver.httpBodyResolver import BodySetting
+from src.httpResolver.httpHeaderResolver import ParsedHeaders, HeaderResolver
 
 # RFC 7230 token: 1*tchar
 # tchar = "!" / "#" / "$" / "%" / "&" / "'" / "*"
